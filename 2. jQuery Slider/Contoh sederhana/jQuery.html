@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <link rel='stylesheet' href='style.css'>
+        <script src='https://code.jquery.com/jquery-3.6.0.min.js'></script>
+        <script>
+            $(document).ready(function(){
+                $('#flip').click(function(){
+                    $('#panel').slideDown('slow');
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div id='flip'>Click ini untuk mencoba slide down</div>
+        <div id='panel'>Anda berhasil mencoba slide down</div>
+    </body>
+</html>
